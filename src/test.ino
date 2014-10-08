@@ -1,4 +1,4 @@
-bool state = 0;
+bool led = 0;
 
 void setup(){
 	Serial.begin(115200);
