@@ -10,7 +10,7 @@ void loop(){}
 void serialEvent(){
 	String data;
 	if(Serial.available())
-		data = Serial.readStringUntil('\n');
+		data = Serial.readStringUntil(';');
 	if(data == "led") led = !led;
 	digitalWrite(13, led);
 	Serial.println(led);
