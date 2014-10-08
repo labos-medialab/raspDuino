@@ -1,14 +1,13 @@
 raspDuino
 =========
 
-automagicali upload this code to arduino on raspi2 in #labOS
+automagicali upload this code to arduino on raspi
 
-check how to install inotool
+#inotool
 http://inotool.org/
 
-ad simple bash script in bin dir:
+#bash script:
 
-#!/bin/bash
 rm -rf /tmp/raspDuino/
 cd /tmp/
 git clone https://github.com/labos-medialab/raspDuino.git
