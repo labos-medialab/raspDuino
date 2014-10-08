@@ -13,7 +13,11 @@ cd /tmp/
 git clone https://github.com/labos-medialab/raspDuino.git
 
 cd /tmp/raspDuino
+
 ino build
+
 ino upload
+
 ino clean
+
 Voilà!
