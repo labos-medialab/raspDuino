@@ -9,6 +9,6 @@ void loop()
 {
   led = !led;
   digitalWrite(LED, led);
-  delay(1000);
+  delay(100);
 }
 
