@@ -1,14 +1,11 @@
-#define LED 13
-bool led = 0;
-void setup()
-{
-  pinMode(LED, OUTPUT);
+void setup(){
+	Serial.begin(115200);
 }
 
-void loop()
-{
-  led = !led;
-  digitalWrite(LED, led);
-  delay(100);
+void loop(){}
+
+void serialEvent(){
+	String data = Serial.readStringUntil('\n');
+	Serial.println(data);
 }
 
