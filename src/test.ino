@@ -8,7 +8,7 @@ void loop()
   digitalWrite(13, HIGH);
   delay(10);
   digitalWrite(13, LOW);
-  delay(20);
+  delay(100);
   digitalWrite(13, HIGH);
   delay(10);
   digitalWrite(13, LOW);
