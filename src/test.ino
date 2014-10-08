@@ -8,8 +8,9 @@ void setup(){
 void loop(){}
 
 void serialEvent(){
+	String data;
 	if(Serial.available())
-		String data = Serial.readStringUntil('\n');
+		data = Serial.readStringUntil('\n');
 	if(data == "led") led = !led;
 	digitalWrite(13, led);
 	Serial.println(led);
