@@ -4,6 +4,7 @@ void setup() {
 	pinMode(13, OUTPUT);
 	Serial.begin(115200);
 }
+//napravimo promjenu
 void loop() {
 	if(Serial.available()){
 		data = Serial.readStringUntil('\n');
