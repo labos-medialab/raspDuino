@@ -10,6 +10,6 @@ void loop() {
 		data = Serial.readStringUntil('\n');
 		state = data.toInt();
 		digitalWrite(13, state);
-		Serial.println(state);
+		Serial.print(state);
 	}
 }
